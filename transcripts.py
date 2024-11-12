@@ -5,7 +5,7 @@ def numorstr(input):
     except:
         return False
     
-
+#change filename here
 file = "transcript.txt"
 textfile = open(file, "r")
 inputTranscript = textfile.read()
